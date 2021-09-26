@@ -119,7 +119,7 @@ docker run -d -P accetto/ubuntu-vnc-xfce
 The following container will listen on the host's explicit **TCP** ports **25901** (VNC) and **26901** (noVNC):
 
 ```docker
-docker run -d -p 25901:5901 -p 26901:6901 accetto/ubuntu-vnc-xfce
+docker run -d -p 25901:5901  26901:6901 accetto/ubuntu-vnc-xfce
 ```
 
 The following container will create or re-use the local named volume **my\_Downloads** mounted as `/headless/Downloads`:
